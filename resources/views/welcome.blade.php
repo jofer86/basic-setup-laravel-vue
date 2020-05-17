@@ -5,9 +5,13 @@
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <title>LaravelBnB</title>
         <link href="https://fonts.googleapis.com/css?family=Nunito:200,600" rel="stylesheet">
+        <link rel="stylesheet" href="{{ asset('css/app.css') }}">
     </head>
     <body>
-       <div id="app"></div>
+       <div id="app">
+            <index></index>
+            
+       </div>
        <script src="{{ asset('js/app.js') }}"></script>
     </body>
 </html>
